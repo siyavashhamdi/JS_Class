@@ -103,7 +103,7 @@ class Student {
 
 const std = [
     new Student("Ali", "Kazemi", "1989/01/01"),
-    new Student("Hassan", "Zavvare", "1988/04/26"),
+    new Student("Hassan", "Zakani", "1988/04/26"),
     new Student("Akram", "Ebrahimi", "1980/06/17"),
     new Student("Setare", "Jahani", "2001/04/12"),
     new Student("Mohsen", "Musakhani", "1955/02/28")
