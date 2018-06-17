@@ -16,11 +16,30 @@ table {
     text-align: center;
     margin: 0 auto;
     border-collapse: collapse;
-    border: solid black 1px;
+}
+
+table tr:hover {
+    background-color: aqua;
+}
+
+table tr:last-child:hover {
+    background-color: transparent;
 }
 
 table tr th,
 table tr td {
     border: solid black 1px;
     min-width: 20px;
+}
+
+table .footer {
+    text-align: right;
+    padding: 10px 0;
+    border: none;
+}
+
+
+input[type="button"] {
+    width: 100px;
+    margin-left: 10px;
 }
